@@ -42,7 +42,8 @@ const MobileNav = () => {
                   src="/assets/logo-text.png"
                   alt="logo"
                   width={152}
-                  height={23}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
 
                 <ul className="header-nav_elements">
